@@ -186,8 +186,10 @@ let clearFucn = (x) => {
     }
 };
 clearFucn(x);*/
+
 var x = new Array(1);
-x.push(5);
+x.push(5, 3);
+
 console.log(x);
 
 /***/ })
