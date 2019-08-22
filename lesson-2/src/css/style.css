@@ -1,0 +1,8 @@
+#cube {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, gray), color-stop(25%, transparent)) 0 0, -webkit-gradient(linear, left top, right top, color-stop(50%, orange), color-stop(25%, transparent)) 0 0, -webkit-gradient(linear, left top, left bottom, color-stop(50%, green), color-stop(25%, transparent)) -90px 90px, -webkit-gradient(linear, left bottom, left top, color-stop(50%, red), color-stop(25%, transparent)) 90px -90px;
+  background: linear-gradient(0deg, gray 50%, transparent 25%) 0 0, linear-gradient(90deg, orange 50%, transparent 25%) 0 0, linear-gradient(180deg, green 50%, transparent 25%) -90px 90px, linear-gradient(360deg, red 50%, transparent 25%) 90px -90px;
+  height: 90px;
+  width: 90px;
+  background-position: 0 90px;
+}
+/*# sourceMappingURL=style.css.map */
